@@ -46,6 +46,13 @@ $(document).ready(function(){
 		});
 	});
 
+	$('#q6').on('click',function(){
+		$('#q6').html("<h4><div id = 'test'>Question 6</h4>")
+		$(this).off('click');
+	$('#test').on('click',function(){
+		$('#q6').html("<h4><Question 6</h4>")
+	});
+	});
 
 });
 
