@@ -47,12 +47,21 @@ $(document).ready(function(){
 	});
 
 	$('#q6').on('click',function(){
-		$('#q6').html("<h4><div id = 'test'>Question 6</h4>")
+		$('#q6').html("<h4><div id = 'test'>What is Jquery</h4>");
 		$(this).off('click');
 	$('#test').on('click',function(){
-		$('#q6').html("<h4><Question 6</h4>")
+		$('#q6').html("<h4><A library for Javascript</h4>");
+		});
 	});
+	$('#q1r3').on("click", function(){
+		$('#q1r3').html("<h4><div id = 'test'>Whose name starts with W?</h4>");
+		$(this).off("click");
+	$("#test").on("click", function(){
+		$('#q1r3').html("<h4>What is Whitley</h4>");
 	});
+});
+
+
 
 });
 
