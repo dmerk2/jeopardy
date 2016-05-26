@@ -23,29 +23,28 @@ $(document).ready(function(){
 	});
 
 	$('#q3').on("click", function(){
-		$("#q3").html("<h4><div id='test'>What does CSS stand for</div></h4>");
+		$("#q3").html("<h4><div id='test'>Cascading Style Sheet</div></h4>");
 		$(this).off('click')
 	$('#test').on("click", function(){
-		$("#q3").html("<h4>Cascading Style Sheet</h4>");
+		$("#q3").html("<h4>What does CSS stand for</h4>");
 		});
 	});
 
 	$('#q4').on('click',function(){
-		$('#q4').html("<h4><div id = 'test'>What does HTML stand for</div></h4>");
+		$('#q4').html("<h4><div id = 'test'>Hypertext Markup Language</div></h4>");
 		$(this).off('click')
 	$('#test').on('click',function(){
-		$('#q4').html('<h4>Hypertext Markup Language</h4>');
+		$('#q4').html('<h4>What does HTML stand for</h4>');
 		});
 	});
 
 	$('#q5').on('click', function(){
-		$('#q5').html("<h4><div id = 'test'>What is Javascript</h4>");
+		$('#q5').html("<h4><div id = 'test'>A way to make a website interactive</h4>");
 		$(this).off('click');
 	$('#test').on('click',function(){
-		$('#q5').html("<h4>A way to make a website interactive</h4>");
+		$('#q5').html("<h4>What is Javascript</h4>");
 		});
 	});
-
 	$('#q6').on('click',function(){
 		$('#q6').html("<h4><div id = 'test'>What is Jquery</h4>");
 		$(this).off('click');
@@ -53,15 +52,16 @@ $(document).ready(function(){
 		$('#q6').html("<h4><A library for Javascript</h4>");
 		});
 	});
+
 	$('#q1r3').on("click", function(){
-		$('#q1r3').html("<h4><div id = 'test'>Whose name starts with W?</h4>");
+		$('#q1r3').html("<h4><div id = 'test'>What is Whitley</h4>");
 		$(this).off("click");
 	$("#test").on("click", function(){
-		$('#q1r3').html("<h4>What is Whitley</h4>");
+		$('#q1r3').html("<h4>Whose name starts with W</h4>");
+		});
 	});
+
+
+
+
 });
-
-
-
-});
-
