@@ -4,13 +4,13 @@ $(document).ready(function(){
 	//when you click q1 the function below will happen
 	$('#q1').on("click", function(){
 		//q1 will say this when clicked on
-		$("#q1").html("<h4><div id='test'>Coolest kid in class</div></h4>");
+		$("#q1").html("<h4><div id='test'>What would you type to get the status of your local repository</div></h4>");
 		//when click it removes the above event
 		$(this).off('click')
 	//when clicked the function below will happen	
 	$('#test').on("click", function(){
 		//q1 will say this when clicked again
-		$("#q1").html("<h4>Who is Dan</h4>");
+		$("#q1").html("<h4>What is git init</h4>");
 		});
 	});
 
